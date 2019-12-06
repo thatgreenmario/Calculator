@@ -6,7 +6,7 @@ int main()
     float num1, num2;
     cout << "Enter operator either + or - or * or /: ";
     cin >> op;
-    cout << "Enter two operands: ";
+    cout << "Enter two numbers: ";
     cin >> num1 >> num2;
     switch(op)
     {
@@ -23,7 +23,7 @@ int main()
             cout << num1/num2;
             break;
         default:
-            cout << "Error! operator is not correct";
+            cout << "Wrong Choice Entered";
             break;
     }
     return 0;
